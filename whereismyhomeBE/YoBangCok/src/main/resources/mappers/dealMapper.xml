@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.yobangcok.model.dao.DealDao">
+
+	<select id="searchByAptCode" parameterType="String" resultType="HouseDeal">
+		select *
+		from housedeal
+		where aptCode = #{aptCode}
+		order by dealYear desc,dealMonth desc,dealDay desc
+	</select>
+	
+
+</mapper>

@@ -82,10 +82,8 @@ Web Application
 <br><br>
 
 ## **실행 화면**
+[![Video Label](http://img.youtube.com/vi/iCc0dDjni98/0.jpg)](https://youtu.be/iCc0dDjni98)
 
-{% include youtubeplayer.html id="iCc0dDjni98" %}  
-
-<iframe width="956" height="538" src="https://www.youtube.com/embed/ozv4q2ov3Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 

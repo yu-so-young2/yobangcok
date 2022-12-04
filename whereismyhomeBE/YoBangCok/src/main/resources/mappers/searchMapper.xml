@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.yobangcok.model.dao.HouseMapDao">
+
+
+	<select id="getSearchDong" parameterType="string" resultType="sidoGugunCodeDto">
+		select addr.sidoName, addr.gugunName, addr.dongCode, addr.dongName, addr.totalName
+		from (select *,concat(sidoName, ' ' , gugunName, ' ' , dongName) totalName from dongcode) as addr
+		WHERE totalName like concat('%', #{content}, '%')
+		order by addr.totalName
+		limit 5
+	</select>
+	
+	<select id="getSearchApt" parameterType="string" resultType="houseInfoDto">
+		select *
+		from houseinfo
+		where apartmentName like concat('%', #{content}, '%')
+		order by apartmentName
+		limit 5
+	</select>
+	
+	<select id="selectDong" parameterType="string" resultType="houseInfoDto">
+		select *
+		from houseinfo
+		where dongCode=#{dongCode}
+		limit 20
+	</select>
+	
+	<select id="selectApt" parameterType="string" resultType="houseInfoDto">
+		select *
+		from houseinfo
+		where apartmentName=#{apartmentName} and dongCode=#{dongCode}
+	</select>
+	
+	
+	
+
+</mapper>
