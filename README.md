@@ -1,11 +1,11 @@
 
-# Happy House
+![YoBangCok](./assets/YoBangCok_logo-001.png)
+
+# **YoBangCok (Happy House)**
 
 🔔 본 프로젝트는 **삼성 청년 SW 아카데미** 1학기 관통 프로젝트 결과물입니다
 
 <br><br>
-
-
 
 ## **개요**
 
@@ -17,8 +17,7 @@
 
 - 2022년 12월 17일 ~ 2022년 11월 24일 (8일)
 
-<br>
-<br>
+<br><br>
 
 ## **성과**
 
@@ -66,7 +65,8 @@ Web Application
       <td>Front-End, Back-End</td>
     </tr>
     <tr>
-      <td>Back-End (Rest API 설계, SQL/Spring 디버깅, 이미지 업로드, 매물 조회 게시판 카테고리/키워드 검색 등 필요 API 추가, DB 테이블 수정 등)</td>
+      <td>Back-End (Rest API 설계, SQL/Spring 디버깅, 이미지 업로드, 매물 조회 게시판 카테고리/키워드 검색 등 필요 API 추가, DB 테이블 수정 등)<br>
+      Front-End (메인 페이지 검색창 수정 및 매물 조회 게시판 디자인)</td>
     </tr>
     <tr>
       <td rowspan="2">조용장</td>
@@ -74,7 +74,8 @@ Web Application
       <td>Front-End, Back-End</td>
     </tr>
     <tr>
-      <td>Front-End (메인 페이지 검색창 수정 및 매물 조회 게시판 디자인)</td>
+      <td>Back-End (Rest API 설계, SQL/Spring 디버깅, 이미지 업로드, 매물 조회 게시판 카테고리/키워드 검색 등 필요 API 추가, DB 테이블 수정 등)<br>
+      Front-End (메인 페이지 검색창 수정 및 매물 조회 게시판 디자인)</td>
     </tr>
   </tbody>
 </table>
@@ -82,10 +83,17 @@ Web Application
 <br><br>
 
 ## **실행 화면**
+
+![YoBangCok](./assets/yobangcokgif.gif)
+
 [![Video Label](http://img.youtube.com/vi/iCc0dDjni98/0.jpg)](https://youtu.be/iCc0dDjni98)
 
-
 <br><br>
+
+## **개발 타임 라인**
+![개발 타임라인](./assets/개발타임라인.jpg)
+
+
 
 ## **요구사항 정의서**
 ![요구사항정의서](./assets/요구사항정의서.jpg)
