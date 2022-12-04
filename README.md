@@ -82,11 +82,11 @@ Web Application
 <br><br>
 
 ## **실행 화면**
-<figure class="video_container">
- {% include 동영상.html id="iCc0dDjni98" %}  
-</figure>
 
-[![Video Label](http://img.youtube.com/vi/iCc0dDjni98/0.jpg)](https://youtu.be/iCc0dDjni98)
+{% include youtubeplayer.html id="iCc0dDjni98" %}  
+
+
+
 <br><br>
 
 ## **요구사항 정의서**
