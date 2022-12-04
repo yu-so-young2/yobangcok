@@ -81,6 +81,10 @@ Web Application
 
 <br><br>
 
+## **실행 화면**
+[![Video Label](http://img.youtube.com/vi/iCc0dDjni98/0.jpg)](https://youtu.be/iCc0dDjni98)
+<br><br>
+
 ## **요구사항 정의서**
 ![요구사항정의서](./assets/요구사항정의서.jpg)
 
@@ -112,11 +116,4 @@ Web Application
 
 <br><br>
 
-
-## **실행 화면**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCc0dDjni98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<br><br>
 
